@@ -1,9 +1,68 @@
-<mxfile host="app.diagrams.net" modified="2023-07-09T21:07:10.964Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:108.0) Gecko/20100101 Firefox/108.0" version="21.6.1" etag="7c1sPlN8XN-jrqeCS5uJ" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-09T21:19:08.816Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:108.0) Gecko/20100101 Firefox/108.0" etag="-EZ-aldTY8LhpHHh5BVV" version="21.6.1" type="github">
   <diagram name="Página-1" id="CjPkUNtJbOY0TbiYCT7M">
-    <mxGraphModel>
+    <mxGraphModel dx="989" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="KInzhOxBZQEU1l6P40Lk-1" value="Seller" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="190" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KInzhOxBZQEU1l6P40Lk-2" value="Buyer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="450" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KInzhOxBZQEU1l6P40Lk-3" value="&lt;div&gt;Mediator&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="840" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KInzhOxBZQEU1l6P40Lk-8" value="Criar Oferta de passagem ou produto" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KInzhOxBZQEU1l6P40Lk-9" value="Consultar pedido de passagem ou produto" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KInzhOxBZQEU1l6P40Lk-10" value="Contatar comprador" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="413" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KInzhOxBZQEU1l6P40Lk-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="KInzhOxBZQEU1l6P40Lk-10" target="KInzhOxBZQEU1l6P40Lk-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="360" as="sourcePoint" />
+            <mxPoint x="150" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KInzhOxBZQEU1l6P40Lk-16" value="Extends" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KInzhOxBZQEU1l6P40Lk-12">
+          <mxGeometry x="-0.0637" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KInzhOxBZQEU1l6P40Lk-13" value="Consultar ofertas de passagem ou produto" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KInzhOxBZQEU1l6P40Lk-14" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="KInzhOxBZQEU1l6P40Lk-1" target="KInzhOxBZQEU1l6P40Lk-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="130" as="sourcePoint" />
+            <mxPoint x="210" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KInzhOxBZQEU1l6P40Lk-15" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="KInzhOxBZQEU1l6P40Lk-1" target="KInzhOxBZQEU1l6P40Lk-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="217" as="sourcePoint" />
+            <mxPoint x="243" y="121" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KInzhOxBZQEU1l6P40Lk-17" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="KInzhOxBZQEU1l6P40Lk-2" target="KInzhOxBZQEU1l6P40Lk-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="228" as="sourcePoint" />
+            <mxPoint x="221" y="217" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KInzhOxBZQEU1l6P40Lk-18" value="Consultar oferta de passagem ou produto" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="505" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KInzhOxBZQEU1l6P40Lk-19" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="KInzhOxBZQEU1l6P40Lk-2" target="KInzhOxBZQEU1l6P40Lk-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="486" as="sourcePoint" />
+            <mxPoint x="224" y="464" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
